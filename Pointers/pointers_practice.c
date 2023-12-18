@@ -3,7 +3,7 @@ int main()
 
 {
 
-int a=20,b;
+int a=20,b,c=20;
 int *ptra;
 ptra=&a;
 b=ptra;
@@ -19,8 +19,10 @@ printf("%d \n",b);
 printf("%d \n",*ptrb);
 printf("%d \n",ptrb);
 printf("%d \n",pptr);
+
 printf(" The value of  %d \n",*pptr);
 printf(" The value of  %d \n",**pptr);
+
 
 
 
